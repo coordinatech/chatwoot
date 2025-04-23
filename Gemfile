@@ -183,6 +183,7 @@ gem 'shopify_api'
 
 group :production do
   # we dont want request timing out in development while using byebug
+  gem 'annotate'
   gem 'rack-timeout'
   # for heroku autoscaling
   gem 'judoscale-rails', require: false
