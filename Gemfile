@@ -188,7 +188,7 @@ group :production do
   gem 'judoscale-rails', require: false
   gem 'judoscale-sidekiq', require: false
 end
-
+gem 'annotate'
 group :development do
   gem 'annotate'
   gem 'bullet'
